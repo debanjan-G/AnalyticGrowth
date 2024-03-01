@@ -6,7 +6,7 @@ const Dashboard = () => {
     <div className="bg-white mt-28 min-w-full min-h-[65vh] p-16 grid md:grid-cols-2">
       <div className="flex flex-col justify-center">
         <img
-          src="DashboardImage"
+          src={DashboardImage}
           className="h-[75%] mx-auto my-2 object-contain"
           alt=""
         />
