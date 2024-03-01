@@ -1,11 +1,12 @@
 import React from "react";
+import DashboardImage from "../assets/undraw_Data_re_80ws.png";
 
 const Dashboard = () => {
   return (
     <div className="bg-white mt-28 min-w-full min-h-[65vh] p-16 grid md:grid-cols-2">
       <div className="flex flex-col justify-center">
         <img
-          src="/src/assets/undraw_Data_re_80ws.png"
+          src="DashboardImage"
           className="h-[75%] mx-auto my-2 object-contain"
           alt=""
         />
